@@ -39,6 +39,7 @@ The `structures` list tells the game to place the `ocean_ruin_cold` and the `oce
 ### _The `structures` list_
 
 When the structure set chooses a place to put a structure, it will pull one of the structures from the `structures` list. This ensures that structures in the structure set will not overlap. For example, if the `ocean_ruin_cold` and the `ocean_ruin_warm` structures shown earlier had different structure set files, you could have the two structures collide like this:
+
 ![ocean ruin collision](/images/ocean_ruin_collision.png)
 
 By having both `ocean_ruin` structures in the same structure set, they won't be able to generate like this.
